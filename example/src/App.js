@@ -1,10 +1,12 @@
 import React from 'react'
 
-import { ExampleComponent } from 'jacui'
+import {MyButton } from 'jacui'
 import 'jacui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <MyButton type="default" text="Click" />
+  )
 }
 
 export default App
